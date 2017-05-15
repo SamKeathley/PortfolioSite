@@ -10,10 +10,10 @@ class App extends Component {
           <h2>Welcome to here</h2>
         </div>
         <ul className="header">
-          <li><IndexLink to="/" activeClassName="active" className="navlink">Home</IndexLink></li>
-          <li><Link to="/components/about" activeClassName="active" className="navlink">About</Link></li>
-          <li><Link to="/components/projects" activeClassName="active" className="navlink">Projects</Link></li>
-          <li><Link to="/components/art" activeClassName="active" className="navlink">Art</Link></li>
+          <li><IndexLink to="/" activeClassName="active" className="navlink">Welcome</IndexLink></li>
+          <li><Link to="about" activeClassName="active" className="navlink">About</Link></li>
+          <li><Link to="projects" activeClassName="active" className="navlink">Projects</Link></li>
+          <li><Link to="art" activeClassName="active" className="navlink">Art</Link></li>
         </ul>
         <div className="content">
           {this.props.children}
