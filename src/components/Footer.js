@@ -6,7 +6,7 @@ class Footer extends Component {
     return(
       <div className="fa-footer">
         <footer className="footer">
-          <div className="content-wrapper pull-right">
+          <div className="content-wrapper pull-right fixed-bottom">
             <ul className="icons">
             <li><i className="fa fa-github-alt" aria-hidden="true"></i>
   </li>
