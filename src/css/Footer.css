@@ -1,0 +1,20 @@
+.footer {
+  padding: 30px;
+  height: 95px;
+  width: 100%;
+  position: absolute;
+}
+.footer > p {
+  display: inline;
+  float: left;
+}
+
+footer span{
+  margin: 0 0 0 auto;
+  display: inline-block;
+}
+
+.icons {
+  margin: 0 15px;
+  list-style: none;
+}

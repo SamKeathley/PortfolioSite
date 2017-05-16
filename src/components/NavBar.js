@@ -1,14 +1,8 @@
 import React, { Component } from 'react';
 import { IndexLink, Link } from 'react-router';
+import '../css/NavBar.css';
 
 class NavBar extends Component {
-  constructor(props){
-    super(props);
-
-    this.state = {
-      currentUser: this.props.currentUser
-    }
-  }
   render() {
     return (
 
@@ -22,10 +16,11 @@ class NavBar extends Component {
           </button>
 
           <nav className="tabs navbar navbar-default navbar-fixed-top">
-            <Link className="navbar-brand" to="/">divvy</Link>
+            <IndexLink to="/" activeClassName="active" className="navbar-brand">Fat Rat Studio</IndexLink>
             <ul>
-              <li><IndexLink to="/" activeClassName="active" className="link">Home</IndexLink></li>
-              <li><Link to="/About" activeClassName="active" className="link">About</Link></li>
+            <li><Link to="about" activeClassName="active" className="navlink">About</Link></li>
+            <li><Link to="projects" activeClassName="active" className="navlink">Projects</Link></li>
+            <li><Link to="art" activeClassName="active" className="navlink">Art</Link></li>
             </ul>
           </nav>
         </div>
