@@ -1,20 +1,18 @@
-.footer {
+footer {
   padding: 30px;
-  height: 95px;
+  height: 50px;
   width: 100%;
   position: absolute;
-}
-.footer > p {
-  display: inline;
-  float: left;
+  flex-direction: row;
+  text-align: center;
 }
 
-footer span{
-  margin: 0 0 0 auto;
-  display: inline-block;
+footer li{
+  margin: 10%;
 }
 
 .icons {
   margin: 0 15px;
   list-style: none;
+  display: inline-flex;
 }
