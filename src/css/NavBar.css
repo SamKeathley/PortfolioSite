@@ -1,16 +1,28 @@
 
 @import url('https://fonts.googleapis.com/css?family=Amatica+SC|Josefin+Sans');
 
-.navbar-brand{
+.navbar-inverse{
+  background: #3E464B;
+  border-color: #3E464B
+}
+
+.navbar-inverse .navbar-brand{
   font-family: 'Amatica SC', cursive;
   font-size: 4em;
-  color: white;
+  color: #DBDDDE;
+}
+
+.navbar-inverse .navbar-collapse{
+  background: #3E464B;
+  border-color: #3E464B;
 }
 
 nav{
   margin: 0 2% 0 2%;
   align-items: center;
   padding: .5%;
+  background: #3E464B;
+  position: fixed;
 }
 
 nav ul{
@@ -38,7 +50,7 @@ nav li {
 
 nav li a{
   text-decoration: none;
-  color: #9d9d9d;
+  color: #DBDDDE;
 }
 
 

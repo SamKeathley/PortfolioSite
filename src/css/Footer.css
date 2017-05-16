@@ -1,18 +1,23 @@
 footer {
-  padding: 30px;
-  height: 50px;
-  width: 100%;
-  position: absolute;
+  padding: 1% 15% 2% 5%;
+  height: 85px;
+  width: 95%;
   flex-direction: row;
   text-align: center;
+  background: #3E464B;
+  position: static;
+  margin: 0 auto;
+  color: #DBDDDE;
 }
 
 footer li{
   margin: 10%;
 }
 
-.icons {
-  margin: 0 15px;
+footer ul{
+  margin: 0 15% 12%;
   list-style: none;
   display: inline-flex;
+  text-align: center;
+  height: 5%;
 }

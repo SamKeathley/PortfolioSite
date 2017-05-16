@@ -5,11 +5,11 @@ class Footer extends Component {
   render(){
     return(
       <footer className="footer">
-        <ul className="icons">
-          <li><i className="fa fa-github-alt" aria-hidden="true"></i></li>
-          <li><i className="fa fa-medium" aria-hidden="true"></i></li>
-          <li><i className="fa fa-linkedin" aria-hidden="true"></i></li>
-          <li><i className="fa fa-instagram" aria-hidden="true"></i></li>
+        <ul>
+          <li><i className="fa fa-github-alt fa-3x" aria-hidden="true"></i></li>
+          <li><i className="fa fa-medium fa-3x" aria-hidden="true"></i></li>
+          <li><i className="fa fa-linkedin fa-3x" aria-hidden="true"></i></li>
+          <li><i className="fa fa-instagram fa-3x" aria-hidden="true"></i></li>
         </ul>
       </footer>
     )

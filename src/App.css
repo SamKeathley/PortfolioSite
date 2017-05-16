@@ -1,3 +1,7 @@
 .content{
   min-height: calc(100vh - 70px);
 }
+
+body{
+  background: #545F66;
+}

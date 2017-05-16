@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Amatica+SC|Josefin+Sans');
+
+.col-md-4 img{
+  max-height: 100%;
+  max-width: 90%;
+  justify-content: flex-start;
+  margin: 20%;
+  padding-top: 50px;
+  display: inline-block;
+  border-radius: 55%;
+}
+
+.col-md-8 p{
+  text-align: justify;
+  vertical-align: middle;
+  float: right;
+  margin: 20%;
+  padding-top: 2px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.5em;
+  color: #171A1C;
+}
+
+.resume{
+  color: #DBDDDE;
+  text-decoration: none;
+}
+
+.fa-lg{
+  transition: 0.7s all linear;
+	height: 100%;
+  text-decoration: none;
+  color: #DBDDDE
+}
