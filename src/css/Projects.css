@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Amatica+SC|Josefin+Sans');
+
+.projects {
+  margin: 9% 0 0 0;
+  /*animation: fade 1.5s;*/
+}
+
+.projects .flex-row{
+  animation: fade 1.5s;
+}
+
+.container {
+  flex-direction: row;
+  display: inherit;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0 6%;
+  flex-wrap: wrap;
+}
+
+.container.offset {
+  margin: 1% 18%;
+  flex-direction: row;
+  display: inherit;
+  justify-content: space-between;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+/*Circle Links*/
+.image-link img{
+   position: relative;
+   width: 100%; /* for IE 6 */
+   border-radius: 10%;
+   width: 150px;
+   height:150px;
+   margin: 10px 20px;
+}
+
+.image-link img {
+  background: white;
+  border: 5px solid darkslategray;
+}
+
+.image-link img:hover {
+  opacity: 0.7;
+  box-shadow: 0px 0px 20px white;
+}
+
+/*animations*/
+@keyframes fade {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+/*Tablets*/
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px){
+
+    .projects{
+      margin-top: 15%;
+    }
+
+    .image-link img{
+      width: 110px;
+      height: 110px;
+      margin: 20px 20px;
+    }
+}
+
+/*Larger Phones*/
+@media screen
+and (min-device-width: 320px)
+and (max-device-width: 425px){
+
+  .projects{
+    margin: 28% 0 0 0;
+  }
+
+  .image-link img{
+    margin: 10px 0px;
+  }
+
+  .container.offset{
+    margin: 0 6%;
+  }
+}
+
+/*Small and Medium Phones*/
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 424px) {
+
+  .projects{
+    margin: 40% 20%;
+  }
+}
