@@ -3,7 +3,7 @@
 
 .navbar-inverse{
   background: #3E464B;
-  border-color: #3E464B
+  border-color: #3E464B;
 }
 
 .navbar-inverse .navbar-brand{
@@ -61,9 +61,8 @@ nav li a:hover{
   color: white;
 }
 
-nav li a:active{
+nav li a .active{
   text-decoration: none;
   list-style: none;
   color: white;
-
 }
