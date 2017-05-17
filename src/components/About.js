@@ -20,7 +20,7 @@ class About extends Component {
             Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.
             <br />
             <br />
-            <a href={Resume} className="resume"><i className="fa fa-file fa-lg" aria-hidden="true"></i></a>
+            <a target="_blank" href={Resume} className="resume"><i className="fa fa-file fa-lg" aria-hidden="true"></i></a>
             <br />
             (Resume)
             </p>
