@@ -22,7 +22,7 @@ footer ul{
   height: 5%;
 }
 
-footer a, footer a:hover{
+footer a, footer a:hover, footer a:visited{
 text-decoration: none;
 color: white;
 }

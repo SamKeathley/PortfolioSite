@@ -54,7 +54,7 @@ nav li a{
 }
 
 
-nav li a:hover{
+nav li a:hover, nav li a:visited{
 	transition: 0.7s all linear;
 	height: 100%;
   text-decoration: none;
