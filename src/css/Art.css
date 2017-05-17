@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Amatica+SC|Josefin+Sans');
+
+
+h2{
+  text-align: center;
+  flex-direction: row;
+  margin: 20%;
+  padding-top: 2px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 3em;
+  color: #171A1C;
+}

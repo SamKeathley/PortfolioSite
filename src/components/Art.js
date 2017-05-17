@@ -1,10 +1,11 @@
 import React, {Component} from 'react';
+import '../css/Art.css';
 
 class Art extends Component {
   render(){
     return(
       <div>
-        <h2>Art page Content will go here</h2>
+        <h2> Under Construction! This page coming soon.</h2>
       </div>
     )
   }

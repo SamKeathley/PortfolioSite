@@ -4,7 +4,7 @@ import { Link, IndexLink } from 'react-router';
 class Welcome extends Component {
   render(){
     return(
-      <div>
+      <div className="welcome">
         <h1> Welcome </h1>
       </div>
     )
