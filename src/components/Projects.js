@@ -18,28 +18,28 @@ class Projects extends Component{
       popups : [
         {
           title: 'Cards Against GA',
-          description: 'React lab done in class. Objective: to make a Cards Against Humanity style cards, stored in Firebase database',
+          description: 'Solo React lab done in class. Objective: to make a Cards Against Humanity style cards, stored in Firebase database.',
           image: {GaCards},
           webLink: '',
-          githubLink: ''
+          githubLink: 'https://github.com/SamKeathley/ga-cards-react'
         },
         {
           title: 'Health Connect',
-          description: 'Class project working with the User Experience Immersive class to create a healthcare app for schools and volunteer doctors, data stored in MongoDB',
+          description: 'Class project working with the User Experience Immersive class to create a healthcare app for schools and volunteer doctors, data stored in MongoDB. My role in this project was on the user design as well as assisted with pulling info from the database.',
           image: {HealthConnect},
           webLink: '',
-          githubLink: ''
+          githubLink: 'https://github.com/SamKeathley/healthconnect'
         },
         {
           title: 'Divvy',
-          description: 'React lab done in class. Objective: to make a gamified savings app to get a younger audience interested in savings, stored if firebase',
+          description: 'React lab done in class. Objective: to make a gamified savings app to get a younger audience interested in savings, stored in firebase. My role in this project was on the pixel avatars, component setup, and database management/info pulling.',
           image: {Divvy},
           webLink: '',
-          githubLink: ''
+          githubLink: 'https://github.com/SamKeathley/DivvyApp'
         },
         {
           title: 'COMING SOON',
-          description: 'Super secret tabletop RPG app',
+          description: 'Super secret tabletop RPG app, coming soon to a site near... uh, well me.',
           image: {Placeholder},
           webLink: '',
           githubLink: ''
@@ -60,29 +60,24 @@ class Projects extends Component{
           />
 
         <div className="flex-row">
-          <div className="container">
+          <div className="container superCool">
 
             <div className="image-link" onClick={() => {this.setState({currentPopupIndex:0})}}>
-              <img src={GaCards} alt=""/>
+              <img src={GaCards} alt="ga-cards"/>
+              <p>Cards Against Assembly</p>
             </div>
-            <p>Cards Against GA</p>
             <div className="image-link" onClick={() => {this.setState({currentPopupIndex:1})}}>
-              <img src={HealthConnect} alt=""/>
+              <img src={HealthConnect} alt="Health Connect landing"/>
+              <p>Health Connect</p>
             </div>
-            <p>Health Connect</p>
             <div className="image-link" onClick={() => {this.setState({currentPopupIndex:2})}}>
-              <img src={Divvy} alt=""/>
+              <img src={Divvy} alt="divvy profile"/>
+              <p>divvy</p>
             </div>
-            <p>divvy</p>
-          </div>
-        </div>
-
-        <div className="flex-row">
-          <div className="container offset">
-            <div className="image-link" onClick={() => {this.setState({currentPopupIndex:6})}}>
+            <div className="image-link" onClick={() => {this.setState({currentPopupIndex:3})}}>
               <img src={Placeholder} alt=""/>
+              <p>Coming Soon!</p>
             </div>
-            <p>Coming Soon!</p>
           </div>
         </div>
 

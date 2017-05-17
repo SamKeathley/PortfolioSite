@@ -2,49 +2,47 @@
 
 .projects {
   margin: 9% 0 0 0;
-  /*animation: fade 1.5s;*/
 }
 
 .projects .flex-row{
   animation: fade 1.5s;
 }
 
-.container {
+.superCool {
   flex-direction: row;
-  display: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 75%;
+  padding: 5% 5%;
+  /*margin: 0 6%;*/
+  /*flex-wrap: wrap;*/
+}
+
+.superCool p{
+  font-size: 1.5em;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #171A1C;
+  text-align: center;
   justify-content: space-between;
-  width: 100%;
   margin: 0 6%;
-  flex-wrap: wrap;
+  padding: 4%;
 }
 
-.container.offset {
-  margin: 1% 18%;
-  flex-direction: row;
-  display: inherit;
-  justify-content: space-between;
-  width: 100%;
-  flex-wrap: wrap;
-}
-
-/*Circle Links*/
 .image-link img{
    position: relative;
-   width: 100%; /* for IE 6 */
-   border-radius: 10%;
-   width: 150px;
-   height:150px;
-   margin: 10px 20px;
+   border-radius: 5%;
+   width: 270px;
+   height:220px;
+   margin: 10px 10px;
+   background: #BBB8C7;
+   border: 2px solid #A7BAC1;
 }
 
-.image-link img {
-  background: white;
-  border: 5px solid darkslategray;
-}
 
 .image-link img:hover {
   opacity: 0.7;
-  box-shadow: 0px 0px 20px white;
+  box-shadow: 0px 0px 20px #EBECE8;
 }
 
 /*animations*/

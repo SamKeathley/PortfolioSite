@@ -4,12 +4,14 @@
 /*Popups*/
 .popup{
   display: block;
+  text-align: center;
+  font-size: 1.2em;
   height: 400px;
   width: 400px;
   margin: 0 34%;
   position: fixed;
-  border-radius: 10%;
-	background: rgba(47,79,79,0.95);
+  border-radius: 2%;
+	background: #566C74;
 	z-index: 2;
   font-family: 'Josefin Sans', sans-serif;
 	-webkit-transition: opacity 400ms ease-in;
@@ -17,27 +19,20 @@
 	transition: opacity 400ms ease-in;
 };
 
-/*.popup-inner{
-  margin-top: 8%;
-}*/
-
-/*.popup-inner img{
-  width: 250px;
-}*/
-
 .popup-inner h3{
-  color: white;
+  color: #DBDDDE;
+  text-align: justify;
 }
 
 .popup-inner p{
-  color: white;
-  font-weight: lighter;
+  color: #DBDDDE;
   margin-left: 10%;
   margin-right: 10%;
+  text-align: center;
 }
 
 .popup-inner a{
-  color: white;
+  color: #171A1C;
   text-decoration: none;
   margin: 4%;
 }
@@ -47,13 +42,19 @@
   cursor: pointer;
 }
 
+.popup-inner .close{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.5em;
+  color: #171A1C;
+}
+
 .close:hover{
-  text-decoration: underline;
+  text-decoration: none;
   cursor: pointer;
 }
 
 .opaque{
-  opacity: 0.4;
+  opacity: 2%;
 }
 
 #phone-img{
