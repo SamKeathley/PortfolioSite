@@ -1,8 +1,3 @@
 Portfolio Site
 
-Fonts used:
-font-family: 'Josefin Sans', sans-serif;
-font-family: 'Amatica SC', cursive;
-
-Import Link:
-@import url('https://fonts.googleapis.com/css?family=Amatica+SC|Josefin+Sans');
+Hi there! Welcome to my portfolio site! I will be updating this periodically to reflect new and ongoing projects. 
