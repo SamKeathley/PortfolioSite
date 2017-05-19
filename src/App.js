@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Link, IndexLink } from 'react-router';
 import NavBar from './components/NavBar';
 import Footer from './components/Footer';
 import './App.css';

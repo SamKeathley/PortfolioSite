@@ -7,9 +7,9 @@ import Placeholder from '../images/placeholder.png';
 import Divvy from '../images/divvyProfile.png';
 import HealthConnect from '../images/healthConnect.png';
 
-var innerPopup = {
-  marginTop: '10%',
-};
+// var innerPopup = {
+//   marginTop: '10%',
+// };
 
 class Projects extends Component{
   constructor(props){
