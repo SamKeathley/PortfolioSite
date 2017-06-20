@@ -34,7 +34,7 @@ class Projects extends Component{
           title: 'Divvy',
           description: 'React lab done in class. Objective: to make a gamified savings app to get a younger audience interested in savings, stored in firebase. My role in this project was on the pixel avatars, component setup, and database management/info pulling.',
           image: {Divvy},
-          webLink: '',
+          webLink: 'https://divvyapp-d1e5a.firebaseapp.com/#/',
           githubLink: 'https://github.com/SamKeathley/DivvyApp'
         },
         {
